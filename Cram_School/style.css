@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #fefefe;
+}
+
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #ff8c00;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  padding: 80px 20px;
+}
+
+.hero-title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.hero-sub {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.hero-btn {
+  display: inline-block;
+  background-color: #ff8c00;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff8ee;
+  border-top: 1px solid #eee;
+}
+
+.feature h3 {
+  font-size: 22px;
+  color: #ff8c00;
+  margin-bottom: 8px;
+}
+
+.feature p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.courses {
+  background-color: #f7f7ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.course {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: left;
+}
+
+.course h3 {
+  font-size: 20px;
+  color: #4169e1;
+  margin-bottom: 8px;
+}
+
+.course p {
+  font-size: 16px;
+}
+
+.teachers {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.teacher-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.teacher {
+  background: #fdfdfd;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.teacher img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.teacher h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.teacher p {
+  font-size: 15px;
+  color: #666;
+}
+
+.voices {
+  background-color: #f0f8ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.voice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.voice {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.voice-text {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.voice-name {
+  font-size: 14px;
+  color: #666;
+}
+
+.access {
+  background-color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.access-info {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.access-info a {
+  display: inline-block;
+  margin-top: 16px;
+  color: #4169e1;
+  text-decoration: underline;
+}
+
+.contact {
+  background-color: #fdf6f0;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form button {
+  background-color: #ff8c00;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #e57700;
+}
+
+html {
+  scroll-behavior: smooth;
+}
